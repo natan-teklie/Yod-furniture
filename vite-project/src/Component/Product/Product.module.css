@@ -1,0 +1,36 @@
+.product{
+    width: 80%;
+    height: 450px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.product img{
+width: 100%;
+max-height: 70%;
+object-fit: contain;
+padding: 0 10px;
+
+}
+.product a{
+    text-decoration: none;
+    color: rgb(35, 35, 35);
+}
+.product h2,
+.product p{
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.product p{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(9, 132, 209);
+}
+
+.product_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    margin-top: 50px;
+    gap: 1em;
+}
