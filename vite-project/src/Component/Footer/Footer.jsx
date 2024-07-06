@@ -1,6 +1,6 @@
-import React from 'react'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter,faInstagram, faLinkedin, faYoutube, faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook,faInstagram, faLinkedin, faYoutube, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -8,6 +8,7 @@ import { faFacebook, faTwitter,faInstagram, faLinkedin, faYoutube, faXTwitter } 
 import './Footer.css'
 
 const Footer = () => {
+ 
   return (
   <>
   
@@ -58,16 +59,9 @@ const Footer = () => {
 
         <div className="row">
             <div className="col"><p>&copy; 2024 Yod Furniture. All Rights Reserved.</p></div>
-            {/* <div className="socialIcons">
-                <a href=""><i class="fa-brands fa-facebook f"></i></a>
-                <a href=""><i class="fa-brands fa-twitter t"></i></a>
-                <a href=""><i class="fa-brands fa-linkedin l"></i></a>
-                <a href=""><i class="fa-brands fa-youtube y"></i></a>
-              
-                
-            </div> */}
+         
             <div className="socialIcons">
-            <style>
+            {/* <style>
         {`
           .faTwitter {
             font-family: sans-serif;
@@ -78,7 +72,7 @@ const Footer = () => {
             color:"white"
           }
         `}
-      </style>
+      </style> */}
       <a href="#">
         <FontAwesomeIcon icon={faFacebook} className="f" />
       </a>

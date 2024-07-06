@@ -8,7 +8,7 @@ const CarouselEffect = () => {
   return (
     <div 	style={{maxHeight:"95vh",
       maxWidth:"100%", top:"40%"
-    }} >
+    }}  >
     <Carousel
     autoPlay ={true}
     infiniteLoop ={true}
@@ -22,7 +22,7 @@ const CarouselEffect = () => {
    
         {
             slideImage.map((slide)=>{
-                return <img src={slide} style={{maxHeight:"100%"}} />
+                return <img src={slide} style={{maxHeight:"100%"}} className='caro' />
             })
         }
    

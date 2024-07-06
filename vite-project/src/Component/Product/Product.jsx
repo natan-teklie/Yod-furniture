@@ -11,7 +11,8 @@ const Product = () => {
           return  <ProductCard data={items}/>
         })
         
-        }</div>
+        }
+        </div>
   )
 }
 
