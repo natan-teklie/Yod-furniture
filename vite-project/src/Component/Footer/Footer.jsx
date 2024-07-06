@@ -19,19 +19,19 @@ const Footer = () => {
             <h4>YodFurniture</h4>
                     <ul>
                         <li><a href="">Home</a></li>
-                        <li><a href="">Office</a></li>
-                        <li><a href="">Outdoor</a></li>
-                        <li><a href="">Technology</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Contact</a></li>
                     </ul>
             </div>
             <div className="footer-col">
             <h4>Properties</h4>
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Products</a></li>
+                        <li><a href="">latest</a></li>
+                        <li><a href="">Modern</a></li>
+                        <li><a href="">High-Quality</a></li>
                         {/* <li><a href="">Gallery</a></li> */}
-                        <li><a href="">Contact</a></li>
+                        <li><a href="">Experianced</a></li>
                     </ul>
             </div>
             <div className="footer-col">
@@ -40,7 +40,7 @@ const Footer = () => {
                         <li><a href="">Home</a></li>
                         <li><a href="">Office</a></li>
                         <li><a href="">Outdoor</a></li>
-                        <li><a href="">Technology</a></li>
+                        <li><a href="">Cafe/Restuarant</a></li>
                     </ul>
             </div>
             <div className="footer-col">
