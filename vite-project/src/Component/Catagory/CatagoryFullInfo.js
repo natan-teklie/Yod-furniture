@@ -26,7 +26,7 @@ export const catagoryInfo = [
     {
         title:"Fashion Trends",
         name:"jewlery",
-        imgLink:"https://m.media-amazon.com/images/I/71I+s8ZshpL._AC_UF894,1000_QL80_.jpg",
+        imgLink:"https://m.media-amazon.com/images/I/91aU2TTKSmL.__AC_SY300_SX300_QL70_FMwebp_.jpg",
     }
 ];
 
