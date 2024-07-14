@@ -14,13 +14,15 @@ body{
     padding: 12px 30px;
     z-index: 999;
     border-bottom:#909090ad ;
+    position: sticky;
+    top: 0;
 
 }
 .header-container{
     width: 100%;
     margin: auto;
     display: table;
-
+   
 }
 .site-logo {
     float: left;
@@ -121,4 +123,6 @@ body{
     display: none;
 }
 }
-
+#mobile i {
+    color: #fff
+}
