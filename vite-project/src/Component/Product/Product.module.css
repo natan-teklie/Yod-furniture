@@ -45,6 +45,7 @@ padding: 0 10px;
       
     }
     .product img{
+        margin-top: 20px;
         width: 100%;
 max-height: 100%;
 object-fit: contain;
@@ -55,6 +56,7 @@ padding: 0 10px;
    
     
     .product h2{
+        margin-top: 20px;
         font-size: 20px;
         font-weight: bold;
         
