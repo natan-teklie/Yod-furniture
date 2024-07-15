@@ -6,7 +6,7 @@ const HeaderNav = () => {
   return (
     <>   <header className="header-area">
     <div className="header-container">
-        <div className="site-logo"><Link to='/'> Yod<span>Furniture</span></Link></div>
+        <div className="site-logo"><a href="/">Yod<span>Furniture</span></a></div>
         <div className="mobile-nav"><i class="fas fa-bars"></i></div>
         <div className="site-nav-menu">
             <ul className="primary-menu">

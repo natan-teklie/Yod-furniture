@@ -19,10 +19,6 @@ import Gallery from './Component/RoutePages/Gallery/Gallery'
 
 
 function App() {
-
-
-
-  
   return (
     <>
    
@@ -35,6 +31,7 @@ function App() {
         <Route path='/gallery' element = {<Gallery/>}/>
     </Routes>
     </Router>
+    
     </>
   )
 }

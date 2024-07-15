@@ -64,8 +64,7 @@ padding: 0 10px;
 
 
     .product_container{
-       
-       
+
         margin: 10% 5% 0% 5%;
         display: grid;
         grid-template-columns: repeat(1,1fr);

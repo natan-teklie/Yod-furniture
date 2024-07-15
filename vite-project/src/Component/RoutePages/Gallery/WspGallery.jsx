@@ -17,15 +17,15 @@ const WspGallery = ({ galleryImages }) => {
   };
   return (
     <div>
-      {openModal && (
+      {openModal && 
         <div className="sliderWrap">
-          <FontAwesomeIcon icon={faCircleXmark} className="btnClose" />{" "}
-          <FontAwesomeIcon icon={faCircleChevronLeft} className="btnPrev" />{" "}
-          <FontAwesomeIcon icon={faCircleChevronRight} className="btnNext" />{" "}
+          <FontAwesomeIcon icon={faCircleXmark} className="btnClose" />
+          <FontAwesomeIcon icon={faCircleChevronLeft} className="btnPrev" />
+          <FontAwesomeIcon icon={faCircleChevronRight} className="btnNext" />
            
            <div className="fullScreenImage"><img src={galleryImages[slideNumber].img} alt="" /></div>
         </div>
-      )}
+      }
       <div className="galleryWrapper">
         {galleryImages &&
           galleryImages.map((slide, index) => {

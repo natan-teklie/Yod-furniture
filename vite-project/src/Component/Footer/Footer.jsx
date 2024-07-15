@@ -58,7 +58,7 @@ const Footer = () => {
 
 
         <div className="row">
-            <div className="col"><p>&copy; 2024 Yod Furniture. All Rights Reserved.</p></div>
+            <div className="col"><p>copyright &copy; 2024 YodFurniture. All rights reserved.</p></div>
          
             <div className="socialIcons">
             {/* <style>
