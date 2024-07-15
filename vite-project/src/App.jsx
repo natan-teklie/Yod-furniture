@@ -14,6 +14,8 @@ import Product from './Component/Product/Product'
 import About from './Component/RoutePages/About'
 import Home from './Component/RoutePages/Home'
 import Contact from './Component/RoutePages/Contact'
+import Gallery from './Component/RoutePages/Gallery/Gallery'
+
 
 
 function App() {
@@ -23,13 +25,14 @@ function App() {
   
   return (
     <>
+   
     <Router> 
     <Routes>
         <Route exact path='/' element = {<Home/>}/>
         <Route path='/about' element ={<About/>} />
         <Route path='/contact' element = {<Contact/>}/>
         <Route path='/product' element = {<b/>}/>
-        <Route path='/gallery' element = {<a/>}/>
+        <Route path='/gallery' element = {<Gallery/>}/>
     </Routes>
     </Router>
     </>
